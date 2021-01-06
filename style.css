@@ -1,0 +1,897 @@
+/* Old CSS Code */
+/* Free to copy anything */
+body {
+	background-color: #000;
+	background-image: url("http://czgames-ark.000webhostapp.com/pages/customizer/img/gtgbg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	position: relative;
+	font-family: Roboto Condensed;
+	z-index: 1;
+	padding: 0 0 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+div#header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 0 8px;
+    border-bottom: 1px solid #444;
+    z-index: 2;
+
+}
+
+div#headerWrap {
+    display: block;
+    width: 980px;
+    margin: 0 auto;
+}
+
+div#container {
+    margin: 125px auto 0;
+    width: 940px;
+    padding: 20px;
+    background-color: rgba(0,0,0,.75);
+    border: 1px solid #bbb;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 0 10px #333 #000 inset;
+    color: #fcfcfc;
+
+}
+
+div#logo {
+    float: left;
+    width: 30%;
+    text-align: center;
+    display: none;
+}
+
+div#nav {
+    display: none;
+}
+
+div#logo h1 a {
+    text-indent: -9999px;
+    display: block;
+    height: 123px;
+    width: 273px;
+    margin: auto;
+    background-image: url("http://czgames-ark.000webhostapp.com/pages/customizer/img/gtglogo.png");
+}
+
+div#topMenu {
+    float: left;
+    position: relative;
+    z-index: 3;
+}
+div#topMenu ul {
+    margin: 0;
+}
+div#topMenu {
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    bottom: 0;
+}
+
+div#topMenu ul li {
+    list-style: none;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+div#topMenu ul li a {
+
+    color: #333;
+    text-decoration: none;
+    font-variant: small-caps;
+    display: block;
+    padding: 10px 25px;
+    background-color: rgba(255,255,255,.5);
+    border: 1px solid #a0a0a0;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+	height: 19px;
+
+}
+
+div#topMenu ul li.active a, div#topMenu ul li a:hover{
+    background-color: rgba(255,255,255,.8);
+    font-weight: bold;
+    border-color: #222;
+}
+
+div#slogan {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #f0f0f0;
+    font-weight: bold;
+    text-shadow: 0 0 4px #000;
+    position: absolute;
+    height: 50px;
+    top: 20px;
+}
+
+div#footer span#return a {
+
+    color: #fff;
+    padding: 5px 20px;
+    display: inline-block;
+    font-size: .75em;
+
+}
+
+div#slides {
+
+    width: 600px;
+    height: 339px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+div#slides img {
+
+    width: 600px;
+    height: 339px;
+    display: block;
+
+}
+
+div#slides p {
+
+    position: relative;
+    top: -44px;
+    padding: 11px 20px;
+    font-size: 1.3em;
+    background-color: rgba(0,0,0,.5);
+    border-top: 1px solid #000;
+
+}
+
+div#slider {
+
+    float: left;
+    position: relative;
+
+}
+
+div#cta {
+    height: 300px;
+    border: 1px solid #c0c0c0;
+    background-image: url('http://czgames-ark.000webhostapp.com/pages/customizer/img/cta.png');
+    border-radius: 20px;
+    box-shadow: 0 0 50px inset #000;
+    position: relative;
+	background-size: cover;
+}
+
+div#cta h1 {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    margin: 0;
+    padding: 10px 25px;
+    width: 888px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+    font-variant: small-caps;
+    font-size: 2.5em;
+    letter-spacing: 0.05em;
+    cursor: default;
+}
+
+div#cta h2 {
+
+    font-variant: small-caps;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 10px;
+    margin: 0 0 20px;
+
+}
+
+ul#rates li:not(.link) {
+
+    padding: 10px;
+    background-color: rgba(255,255,255,.8);
+    color: #111;
+    margin: 0 0 5px;
+    border-radius: 5px;
+    font-size: 1.3em;
+
+}
+
+ul#rates li span {
+    font-variant: small-caps;
+    width: 70%;
+    display: inline-block;
+}
+
+ul#rates li.link a {
+
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    font-size: .9em;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+
+}
+
+ul#rates li.link a:hover {
+
+    text-decoration: underline;
+    color: #fff;
+
+}
+
+div#content p:first-child {
+    border-top: none;
+}
+
+div#content p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 5px #000;
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid #c0c0c0;
+    border-top: 1px solid #111;
+    margin: 0 20px;
+}
+
+div#content p#contentImages {
+    border: none;
+}
+
+div#content p a {
+
+    font-size: .8em;
+    text-decoration: none;
+    color: #eee;
+    padding: 5px;
+    background-color: Rgba(0,0,0,.2);
+    border-radius: 10px;
+
+}
+
+div.member h4, div.member p {
+    padding: 0 10px;
+}
+
+div#content p a:hover {
+
+    text-decoration: underline;
+    color: #fff;
+    background-color: Rgba(0,0,0,.4);
+    box-shadow: 0 0 5px #000;
+
+}
+
+div#controls a {
+
+    position: absolute;
+    top: 150px;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+    background-color: rgba(255,255,255,.3);
+    display: block;
+    text-indent: -9999px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+div#controls a.next {
+    background-image: url("http://czgames-ark.000webhostapp.com/pages/customizer/img/next-arrow.png");  
+    right: 0;
+}
+
+div#controls a.last {
+    background-image: url("http://czgames-ark.000webhostapp.com/pages/customizer/img/last-arrow.png");  
+    left: 0;
+}
+
+div#contact-page h1 {
+    font-size: 5em;
+    font-variant: small-caps;
+    font-weight: 900;
+    padding: 0 0 20px;
+    margin: 0 0 50px;
+    border-bottom: 3px dashed #fff;
+}
+
+div.input input {
+    float: left;
+    width: 291px;
+    margin: 0 8px;
+    max-width: 291px;
+    min-width: 291px;
+    min-height: 30px;
+    max-height: 150px;
+}
+
+div.input textarea {
+    padding: 5px;
+    width: 574px;
+    max-width: 574px;
+    max-height: 200px;
+    height: 100px;
+    font-family: "Open Sans",inherit sans-serif;
+    font-size: .8em;
+    min-height: 100px;
+    margin: 20px 8px 0;
+    min-width: 500px;
+    float: left;
+}
+
+div#contactSend input {
+    float: right;
+    margin: 20px 8px 0;
+    width: 290px;
+    min-width: 290px;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+    max-width: 290px;
+}
+
+div#sidebar {
+    display: inline-block;
+}
+
+div#sidebar h2 {
+    font-size: 2em;
+    font-variant: small-caps;
+    padding: 0 0 10px 15px;
+    border-bottom: 3px dashed #eee;
+    margin: 20px 0 10px;
+}
+
+div#sidebar div.member {
+    float: left;
+    width: 290px;
+    margin: 0 10px 0 0;
+    border: 2px groove #222;
+    position: relative;
+
+}
+
+div.member h3 {
+    text-align: center;
+    width: 280px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,.5);
+    margin: 0;
+    padding: 15px 5px;
+}
+
+div.member div.picture {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+div.member div.info {
+
+    position: absolute;
+    bottom: 0;
+    padding: 5px 10px;
+    width: 270px;
+    background-color: rgba(0,0,0,.5);
+
+}
+
+p.email a {
+    color: #fff;
+    font-size: .85em;
+    padding: 5px 0;
+    display: block;
+    letter-spacing: 0.2em;
+}
+
+div#footer p {
+
+    margin: 50px 0 0 20px;
+    font-size: 1.2em;
+
+}
+
+div#rates h2, div#items h2, div#mods h2 {
+
+    font-size: 3em;
+    margin: 0 0 50px;
+    padding: 0 0 20px;
+    border-bottom: 3px dashed #eee;
+    font-variant: small-caps;
+
+}
+
+div#rates ul li, div#items ul li, div#mods ul li {
+
+    background-color: rgba(255,255,255,.3);
+    border: 1px solid #eee;
+        border-bottom-color: rgb(238, 238, 238);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+div#rates ul li.alt, div#items ul li.alt, div#mods ul li.alt {
+    background-color: unset;
+}
+
+div#rates ul li span, div#items ul li span, div#mods ul li span {
+
+    display: block;
+    float: left;
+    padding: 20px 10px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #333;
+    height: 100%;
+
+}
+
+div#rates ul li span.rate_name, div#items ul li span.item_name, div#mods ul li span.mod_name {
+
+    width: 35%;
+    border-left: none;
+    font-size: 1.25em;
+    font-variant: small-caps;
+    font-weight: 900;
+
+}
+
+div#rates ul li span.rate_number, div#items ul li span.item_number {
+
+    width: 5%;
+    text-align: center;
+
+}
+
+div#rates ul li span.rate_description, div#items ul li span.item_description, div#mods ul li span.mod_description {
+
+    width: 53%;
+    border-right: none;
+    line-height: 1.2em;
+
+}
+
+div#rates ul li span.clr, div#items ul li span.clr, div#mods ul li span.clr {
+
+    display: block;
+    width: 100%;
+    float: none;
+    border: none;
+    height: 0 !important;
+    padding: 0 !important;
+
+}
+
+div#rates ul li.item.top, div#items ul li.item.top, div#mods ul li.item.top {
+
+    background-color: rgba(255,255,255,.75);
+    color: #333;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-shadow: unset;
+
+}
+
+div#rates > ul > li:last-child, div#items > ul > li:last-child, div#mods > ul > li:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+div#mods br {
+
+    margin: 0 0 10px 0;
+    display: block;
+
+}
+
+div#rates ul, div#items ul, div#mods ul {
+
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+
+}
+
+div#header.dropped {
+
+    background-color: rgba(0,0,0,.7);
+
+}
+
+div#rates span.item_description span, div#items span.item_description span, div#mods span.mod_description span {
+    padding: 0;
+    border: 0;
+    height: auto;
+    font-size: .8em;
+}
+
+div#teamContent div.team-member {
+
+    float: left;
+    width: 290px;
+    margin: 9px;
+    height: 200px;
+    border: 1px solid #aaa;
+    position: relative;
+
+}
+
+div#teamContent div.team-member img {
+    width: 290px;
+    height: 200px;
+}
+
+div.team-member h2 {
+
+    position: absolute;
+    bottom: 0;
+    font-size: .85em;
+    padding: 10px 5px;
+    width: 280px;
+    background-color: Rgba(0,0,0,.6);
+
+}
+
+
+div#items div.dino-list span {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 7px;
+    font-size: .8em;
+    font-variant: small-caps;
+    margin: 0 2px 2px 0;
+    border: 1px solid rgba(255,255,255,.2);
+}
+
+div#seasonChange p a {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-variant: small-caps;
+    color: #fff;
+    font-weight: bolder;
+    padding: 20px 0;
+    background-color: Rgba(200,0,0,.2);
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgba(200,0,0,.5);
+}
+
+
+div#seasonChange p a:hover {
+	background-color: rgba(200,0,0,.5);
+	border-color: rgba(200,0,0,.75);
+	text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+div#rates ul li span.largetxt {
+
+    padding: 0;
+    border: none;
+    height: auto;
+    display: inline-block;
+    float: none;
+    font-size: 1.5em;
+    margin: 0 0 15px;
+    color: #f00;
+
+}
+
+div#rates ul li span.largetxt.smaller {
+
+    margin: 0;
+    font-size: 1.1em;
+    color: lime;
+
+}
+
+div#rates ul li span.largetxt.smaller.better {
+    color: aqua;   
+}
+
+div#footer {
+    border-top: 1px dashed #fff;
+    margin: 50px 0 0;
+}
+
+div#footer p{
+    margin: 15px 30px 0 30px;
+}
+
+div#content p#contentImages span {
+    width: 150px;
+    display: inline-block;
+    height: 150px;
+    border: 2px groove #ccc;
+    margin: 0 13px 20px;
+    background-color: rgba(255,255,255,.5);
+}
+
+div#content p#contentImages span img {
+    width: 100%;
+    height: 100%;
+}
+
+div#breadcrumb a {
+    color: #ccc;
+    position: relative;
+    top: -3px;
+    font-size: .8em;
+	text-decoration: none;
+}
+
+div#breadcrumb a.active, div#breadcrumb a:hover {
+	text-decoration: underline;
+}
+
+div.toolItem {
+    float: left;
+    width: 271px;
+    height: 291px;
+    margin: 0 20px 40px;
+    border: 1px solid #ccc;
+}
+
+body#tools div#containerWrap {
+    margin: 20px 0 0;
+}
+
+div.toolWrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+div.toolImg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    z-index: 0;
+}
+
+div.toolTitle {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    color: #ccc;
+    width: 100%;
+    text-shadow: 0 0 5px #000;
+}
+
+div.toolDesc {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    color: #ccc;
+    width: 100%;
+}
+
+div.toolTitle h3 {
+    font-variant: small-caps;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 10px 0;
+}
+
+div.toolDesc p {
+    padding: 10px;
+    background-color: rgba(0,0,0,.5);
+}
+
+div.member p.job {
+    margin: 10px auto;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    width: 85%;
+}
+
+div.member h4 {
+    margin: 10px 0 20px;
+    font-variant: small-caps;
+    font-size: 1.2em;
+}
+
+div#footer span {
+    font-size: 0.8em;
+    font-variant: small-caps;
+    position: relative;
+    top: -1px;
+}
+
+div.toolWrap div img {
+    width: 100%;
+    height: 100%;
+}
+
+div.toolWrap div a {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+}
+
+div.toolTitle {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    color: #ccc;
+    width: 100%;
+    text-shadow: 0 0 5px #000;
+}
+
+div.toolWrap:hover div.toolTitle {
+	color: #fff;
+}
+
+div.toolWrap:hover {
+	border-color: #e0e0e0;
+}
+
+div#expForm fieldset {
+    padding: 20px;
+    border: 2px dashed #ccc;
+}
+
+div#expForm legend {
+    padding: 0 20px 0 17px;
+    font-size: 1.4em;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+div#expForm input {
+    float: none;
+    width: auto;
+    max-width: none;
+    min-width: auto;
+    max-height: none;
+    min-height: auto;
+    margin: 0;
+}
+
+div#expForm div.inputText input {
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-variant: small-caps;
+    margin: 0 0 20px;
+}
+
+div#expForm div.input span {
+    margin: 0 15px 10px 0;
+    display: inline-block;
+}
+
+input#generate, input.continue {
+    padding: 10px 20px;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #555;
+    cursor: pointer;
+    background: #ccc;
+    border: 1px solid #303030;
+}
+
+input#generate:hover, input.continue:hover {
+	border-color: #dfdfdf;
+}
+
+input#generate.disabled, input.continue.disabled {
+    cursor: default;
+	opacity: 0.5;
+}
+
+input#generate.disabled:hover, input.continue.disabled:hover {
+	border-color: #dfdfdf;
+	border-color: #303030
+}
+
+div#expForm div.interval input, div#expForm div.engramInterval input, div#expForm div.confirmItem input {
+    margin: 0 0 10px;
+    width: 178px;
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 1px solid #333;
+}
+
+div#expForm div.interval input.error, div#expForm div.engramInterval input.error, div#expForm div.confirmItem input.error {
+    border-color: red;
+}
+
+div#expArray, div#engramArray {
+    margin: 0 0 20px;
+    display: inline-block;
+    padding: 10px 10px 0;
+    background-color: rgba(255,255,255,.2);
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,.5);
+}
+
+div#expForm div.interval, div#expForm div.engramInterval {
+    float: left;
+    margin: 0 9px 3px;
+}
+
+div.array h4 {
+    margin: 10px 10px 20px;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    padding: 0 0 10px;
+    border-bottom: 2px dashed #ccc;
+}
+
+div#expForm p.notify {
+    margin: 20px;
+    opacity: 0.4;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+div.confirmItem span.cItem {
+    font-size: 1.2em;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+    letter-spacing: 0.1em;
+}
+
+div.confirmItem {
+    margin: 0 0 5px;
+    font-size: .9em;
+}
+
+div#expForm div.confirmItem input {
+    min-width: 50px;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-family: Open Sans;
+    width: auto;
+    max-width: 50px;
+}
+
+div#step3 {
+    margin: 0 0 40px;
+}
+
+div#expForm div.inputText input.augment {
+    margin: 0 20px 0 20px;
+    font-size: .8em;
+    padding: 7px 10px;
+    position: relative;
+    top: -2px;
+}
