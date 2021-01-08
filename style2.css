@@ -1,0 +1,269 @@
+body {
+	background-color: #000;
+	background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	position: relative;
+	z-index: 1;
+}
+
+div#background {
+	opacity: 0.9;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;  
+	z-index: 0;
+}
+
+div#wrapper {
+    width: 60%;
+    padding: 30px 7% 50px 7%;
+    display: block;
+    margin: 0 12%;
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0px 0px 18px #000000;
+    position: relative;
+    z-index: 3;
+}
+
+div#header {
+    margin: 0 0 70px 0;
+	position: relative;
+}
+
+div#header h1, div#header h2 {
+	float: left;
+	display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#header h1 {
+    font-size: 3em;
+    color: #f0f0f0;
+    letter-spacing: 0.05em;
+    padding: 10px 20px 10px 0;
+    border-right: 1px solid #aaa;
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-shadow: -1px -1px 1px rgba(0,0,0.2), 1px 1px 1px rgba(255,255,255,.2), 0 0 10px #fff, 0 0 3px rgba(0,0,0,.4);
+    height: 139px;
+}
+
+div#header h2 {
+    font-size: 3em;
+    color: #f0f0f0;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    padding: 10px 0 0 0;
+}
+
+div#header h1 span {
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px 0;
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background-size: contain;
+}
+
+div.item {
+    float: left;
+    width: 225px;
+    height: 225px;
+    margin: 0 12% 60px 0;
+    position: relative;
+}
+
+div#body div#ft,div#body div#fb {
+    margin: 0 0 60px 0;
+}
+
+div.item:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,d6d6d6+51,eaeaea+100 */
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(214,214,214,1) 51%, rgba(234,234,234,1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(214,214,214,1) 51%,rgba(234,234,234,1) 100%);
+	background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(214,214,214,1) 51%,rgba(234,234,234,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=1 );
+	border-radius: 20px;
+}
+
+div.item h2, div.item h2 a {
+	display: block;
+	height: 100%;
+}
+
+div.item h2 a {
+    border: 2px solid #e0e0e0;
+    display: block;
+    border-radius: 22px;
+    width: 225px;
+    height: 223p;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    opacity: .75;
+    text-align: center;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+
+}
+
+div.item h2 a:hover {
+	box-shadow: 0 0 20px #000;
+	border-color: #303030;
+	opacity: 1;
+}
+
+div.item h2 a span {
+    position: absolute;
+    bottom: -2px;
+    left: 2px;
+    color: #f0f0f0;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    padding: 15px 5px;
+    display: block;
+    width: 216px;
+    text-align: center;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 0 0 20px 20px;
+
+}
+
+div.item h2 a:hover span{
+	background-color: rgba(255,255,255,.6);
+	color: #333;
+	border-top: 1px solid #303030;
+	box-shadow: 0 0 20px #000;
+	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 0px 1px 6px rgba(0,0,0,.7), 0 0 10px #fff;
+}
+
+div#menu {
+	position: absolute;
+	left: 430px;
+}
+
+div#menu li {
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #999;
+    line-height: 1.3em;
+}
+
+div#menu li:last-child {
+	border: none;
+}
+
+div#menu li a {
+    color: #a0a0a0;
+    text-decoration: none;
+    opacity: .5;
+    font-weight: bold;
+}
+
+div#menu li a:Hover {
+	color: #f0f0f0;
+	text-decoration: underline;
+	opacity: .7;
+	text-shadow: 0 0 3px #f0f0f0;
+}
+
+div#footer {
+    padding: 20px 0 0 0;
+    border-top: 1px solid #777;
+}
+
+div#footer p {
+    color: #EFEFEF;
+    letter-spacing: 0.15em;
+    padding: 25px 40px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    font-variant: small-caps;
+    opacity: .5;
+}
+
+div#footer p span {
+	font-size: 1.1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div#website h2 a {
+	background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/website.png");
+}
+
+div.item h2 a:hover {
+	background-position: 0 -200px;
+}
+
+div#medical h2 a {
+	background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/medical.png");
+}
+
+div#sponsor h2 a {
+    background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/sponsor.png");
+    background-position: 0px 25px;
+}
+
+div#blog h2 a {
+	background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/blog.png");
+}
+
+div#faq h2 a {
+	background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/faq.png");
+}
+
+div#music h2 a {
+    background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/music.png");
+    background-position: 0 5px;
+}
+
+div#portfolio h2 a {
+	background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/portfolio.png");
+}
+
+div#music h2 a:hover {
+    background-position: 0 -200px;
+}
+
+div#sponsor h2 a:hover {
+	background-position: 0px -215px;
+}
+
+div#ft h2 a {
+    background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/ft.jpg");
+    background-position: 0 0;
+    background-size: contain;
+}
+
+div#site h2 a {
+    background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/site.png");
+    background-size: cover;
+}
+
+div#dc h2 a {
+    background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/discord.png");
+    background-size: contain;
+    background-color: #fff;
+}
+
+div#fb h2 a {
+    background-image: url("http://czgames-ark.000webhostapp.com/homepage/img/paypal.png");
+    background-position: 0 0;
+    background-size: contain;
+    background-color: #fff;
+}
+
+div#site h2 a:Hover, div#dc h2 a:Hover, div#fb h2 a:Hover{
+    background-position: 0 0;
+}
